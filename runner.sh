@@ -1,0 +1,2 @@
+alias build="clang++ -std=c++11 -I . main.cpp ./rmath/dtype/bigint/vector-arithmetic.cc ./rmath/dtype/bigint/div-helpers.cc ./rmath/dtype/bigint/div-burnikel.cc ./rmath/dtype/bigint/div-schoolbook.cc ./rmath/dtype/bigint/mul-schoolbook.cc ./rmath/dtype/bigint/mul-karatsuba.cc ./rmath/dtype/bigint/bigint-internal.cc ./rmath/dtype/bigint/fromstring.cc"
+alias run="./a.out"
